@@ -15,7 +15,10 @@ public class Main {
 
         l[5] = new Lutador("MalucoDoDegrau", "Japão", 32, 1.88f, 67.8f, 14, 2, 3);
 
-        l[1].apresentar();
+        Luta UEC01 = new Luta();
+
+        UEC01.marcarLuta(l[0], l[1]);
+        UEC01.lutar();
 
     }
 }
